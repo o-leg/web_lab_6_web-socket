@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Chat</title>
+</head>
+<body>
+    <div id="registration_form">
+        <label for="name_input" class="registration_form_text">Please, enter your nickname:</label>
+        <input id="name_input" type="text" autocomplete="off">
+        <button id="form_button">Submit</button>
+    </div>
+
+    <div id="chat">
+        <div id="messages_container"></div>
+
+        <div id="input_container">
+            <label class="input_container__label">
+                <input type="text" id="inputBox" placeholder="Write a message..."/>
+            </label>
+            <div id="button_container">
+                <button id="send_button" disabled>▶</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+</body>
+</html>
